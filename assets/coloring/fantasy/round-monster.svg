@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Monstruito redondo con dos cuernos pequenos">
+  <g fill="none" stroke="#000" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M74 58 L66 24 L92 52 Z" fill="#fff"/>
+    <path d="M126 58 L134 24 L108 52 Z" fill="#fff"/>
+    <path d="M40 120 q-18 2 -16 22"/>
+    <path d="M160 120 q18 2 16 22"/>
+    <circle cx="100" cy="112" r="66" fill="#fff"/>
+    <ellipse cx="76" cy="182" rx="16" ry="9" fill="#fff"/>
+    <ellipse cx="124" cy="182" rx="16" ry="9" fill="#fff"/>
+    <circle cx="62" cy="88" r="8"/>
+    <circle cx="140" cy="132" r="7"/>
+    <circle cx="80" cy="104" r="13"/>
+    <circle cx="120" cy="104" r="13"/>
+    <circle cx="80" cy="105" r="5" fill="#000" stroke="none"/>
+    <circle cx="120" cy="105" r="5" fill="#000" stroke="none"/>
+    <path d="M70 134 q30 32 60 0"/>
+    <path d="M86 140 l0 -8"/>
+    <path d="M114 140 l0 -8"/>
+  </g>
+</svg>

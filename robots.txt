@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://betoportugalx.github.io/matemagica/sitemap.xml

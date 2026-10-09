@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Dragon bebe con alas redondeadas y cola curva">
+  <g fill="none" stroke="#000" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M130 152 q42 6 34 -32 q-6 -22 -26 -18 q14 12 8 30 q-6 16 -22 18 z" fill="#fff"/>
+    <path d="M74 108 C40 82 20 100 26 138 C44 124 60 130 76 142 Z" fill="#fff"/>
+    <path d="M126 108 C160 82 180 100 174 138 C156 124 140 130 124 142 Z" fill="#fff"/>
+    <ellipse cx="78" cy="176" rx="15" ry="9" fill="#fff"/>
+    <ellipse cx="122" cy="176" rx="15" ry="9" fill="#fff"/>
+    <ellipse cx="100" cy="140" rx="38" ry="34" fill="#fff"/>
+    <path d="M84 50 l-6 -20 l16 12 z" fill="#fff"/>
+    <path d="M108 50 l6 -20 l-16 12 z" fill="#fff"/>
+    <circle cx="96" cy="78" r="32" fill="#fff"/>
+    <ellipse cx="96" cy="92" rx="16" ry="11" fill="#fff"/>
+    <circle cx="86" cy="76" r="4" fill="#000" stroke="none"/>
+    <circle cx="106" cy="76" r="4" fill="#000" stroke="none"/>
+    <circle cx="90" cy="92" r="2" fill="#000" stroke="none"/>
+    <circle cx="102" cy="92" r="2" fill="#000" stroke="none"/>
+    <path d="M90 100 q6 6 12 0"/>
+    <path d="M64 138 q-6 -8 0 -14"/>
+    <path d="M136 138 q6 -8 0 -14"/>
+  </g>
+</svg>

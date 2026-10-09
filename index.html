@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sumas, restas, multiplicaciones y divisiones para niños: juegos y fichas | Matemágica</title>
+<meta name="description" content="Juegos online de sumas, restas, multiplicaciones y divisiones, y fichas para imprimir en PDF (A4). Con dibujos y voz. Gratis, sin registro, para 4 a 10 años.">
+<!-- URLs absolutas del sitio en GitHub Pages (repo "matemagica"). -->
+<link rel="canonical" href="https://betoportugalx.github.io/matemagica/">
+<meta name="theme-color" content="#4f46e5">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Matemágica">
+<meta property="og:locale" content="es_PE">
+<meta property="og:title" content="Sumas, restas, multiplicaciones y divisiones para niños">
+<meta property="og:description" content="Juegos online y fichas para imprimir de sumas, restas, multiplicaciones y divisiones. Con dibujos y voz. Gratis y sin registro.">
+<meta property="og:url" content="https://betoportugalx.github.io/matemagica/">
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; color: #1f2937; background: linear-gradient(160deg,#e0f2fe,#ede9fe 55%,#fce7f3);
+         font-family: "Trebuchet MS","Segoe UI",system-ui,-apple-system,sans-serif; min-height: 100vh; }
+  .wrap { max-width: 820px; margin: 0 auto; padding: 24px 16px 48px; }
+  header.top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 22px; }
+  .brand { font-weight: 800; font-size: 20px; color: #4338ca; }
+  header.top a { color: #4338ca; font-weight: 700; text-decoration: none; font-size: 14px; }
+  h1 { font-size: clamp(28px, 6vw, 42px); text-align: center; margin: 6px 0; color: #312e81; }
+  .lead { text-align: center; color: #4b5563; font-size: 17px; max-width: 620px; margin: 0 auto 24px; }
+  .tarjetas { display: grid; gap: 16px; }
+  @media (min-width: 640px) { .tarjetas { grid-template-columns: 1fr 1fr; } }
+  .tarjeta { display: block; background: #fff; border-radius: 20px; padding: 24px; text-decoration: none;
+             color: #1f2937; box-shadow: 0 12px 30px rgba(79,70,229,.12); transition: transform .1s; }
+  .tarjeta:hover { transform: translateY(-3px); }
+  .tarjeta .emoji { font-size: 40px; }
+  .tarjeta h2 { margin: 10px 0 6px; font-size: 21px; }
+  .tarjeta p { margin: 0; color: #6b7280; font-size: 14.5px; }
+  .tarjeta.juego { border-top: 5px solid #4f46e5; }
+  .tarjeta.restas { border-top: 5px solid #db2777; }
+  .tarjeta.multi { border-top: 5px solid #f59e0b; }
+  .tarjeta.divi { border-top: 5px solid #7c3aed; }
+  .tarjeta.fichas { border-top: 5px solid #16a34a; }
+  .tarjeta.fichas2 { border-top: 5px solid #0891b2; }
+  .tarjeta.fichas3 { border-top: 5px solid #ea580c; }
+  .tarjeta.fichas4 { border-top: 5px solid #0d9488; }
+  .niveles-lista { margin: 26px 0 6px; }
+  .niveles-lista h2 { font-size: 20px; text-align: center; }
+  .niveles-lista ul { list-style: none; padding: 0; max-width: 520px; margin: 0 auto; }
+  .niveles-lista li { background: #fff; border-radius: 12px; padding: 12px 16px; margin: 8px 0;
+                      box-shadow: 0 4px 14px rgba(0,0,0,.06); font-size: 15px; }
+  footer { text-align: center; color: #6b7280; font-size: 12.5px; margin-top: 28px; }
+  .bloques { margin-top: 26px; }
+  .bloque { background: #fff; border-radius: 16px; padding: 18px 20px; box-shadow: 0 6px 18px rgba(0,0,0,.06); }
+  .bloque h2 { font-size: 19px; margin: 0 0 8px; color: #312e81; }
+  .bloque p { color: #4b5563; font-size: 14.5px; margin: 0 0 8px; }
+  .bloque ul { color: #4b5563; font-size: 14.5px; margin: 0; padding-left: 20px; }
+  .bloque li { margin: 4px 0; }
+  .faq h2 { text-align: center; font-size: 20px; margin: 0 0 10px; color: #312e81; }
+  .faq details { background: #fff; border-radius: 14px; padding: 12px 16px; margin: 8px 0; box-shadow: 0 4px 14px rgba(0,0,0,.06); }
+  .faq summary { font-weight: 700; cursor: pointer; color: #312e81; }
+  .faq p { margin: 8px 0 0; color: #4b5563; font-size: 14.5px; }
+  .pie-nav { margin-bottom: 10px; }
+  .pie-nav a { color: #4338ca; text-decoration: none; font-weight: 700; margin: 0 4px; }
+  .pie-nav a:hover { text-decoration: underline; }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Matemágica",
+  "url": "https://betoportugalx.github.io/matemagica/",
+  "inLanguage": "es",
+  "description": "Juegos online y fichas para imprimir de sumas, restas, multiplicaciones y divisiones para niños."
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "¿Es gratis?", "acceptedAnswer": { "@type": "Answer", "text": "Sí. Todos los juegos y fichas son gratis y no necesitas registrarte." } },
+    { "@type": "Question", "name": "¿Necesito instalar algo?", "acceptedAnswer": { "@type": "Answer", "text": "No. Funciona en el navegador del móvil, la tablet o el ordenador." } },
+    { "@type": "Question", "name": "¿Cómo imprimo las fichas?", "acceptedAnswer": { "@type": "Answer", "text": "Abre una ficha, elige las opciones y pulsa Imprimir o Guardar PDF. Se genera en tamaño A4." } },
+    { "@type": "Question", "name": "¿Pedís datos a los niños?", "acceptedAnswer": { "@type": "Answer", "text": "No. No hay registro ni formularios y no pedimos datos personales de los niños." } }
+  ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div class="brand">🧮 Matemágica</div>
+    <a href="juego/juego-de-sumas.html">Jugar ahora →</a>
+  </header>
+
+  <main>
+  <h1>Sumas, restas, multiplicaciones y divisiones para niños</h1>
+  <p class="lead">Juega a las <strong>sumas</strong>, <strong>restas</strong>, <strong>multiplicaciones</strong> y
+     <strong>divisiones</strong> online o descarga fichas para imprimir. Elige el nivel y el modo.
+     Con <strong>dibujos para contar</strong> y <strong>voz</strong>. Gratis y sin registro.</p>
+
+  <!-- ANUNCIO (arriba): pega aquí el bloque de AdSense cuando lo tengas -->
+
+  <div class="tarjetas">
+    <a class="tarjeta juego" href="juego/juego-de-sumas.html">
+      <div class="emoji">➕</div>
+      <h2>Jugar a las sumas online</h2>
+      <p>Niveles hasta 20, hasta 10 y con llevadas. Con dibujos, voz y modos Aprender/Reto. ¡Con estrellas!</p>
+    </a>
+    <a class="tarjeta restas" href="juego/juego-de-restas.html">
+      <div class="emoji">➖</div>
+      <h2>Jugar a las restas online</h2>
+      <p>Niveles hasta 10, hasta 20 y con llevadas. Los dibujos se tachan para <em>ver</em> la resta.</p>
+    </a>
+    <a class="tarjeta multi" href="juego/juego-de-multiplicacion.html">
+      <div class="emoji">✖️</div>
+      <h2>Jugar a las multiplicaciones</h2>
+      <p>Practica las tablas del 2 al 10. Los dibujos se colocan en filas para <em>ver</em> el producto.</p>
+    </a>
+    <a class="tarjeta divi" href="juego/juego-de-division.html">
+      <div class="emoji">➗</div>
+      <h2>Jugar a las divisiones</h2>
+      <p>Reparte en grupos iguales y descubre el resultado. Divisiones exactas y fáciles.</p>
+    </a>
+    <a class="tarjeta fichas" href="fichas/fichas-de-sumas.html">
+      <div class="emoji">📝</div>
+      <h2>Fichas de sumas</h2>
+      <p>Genera fichas de sumas en PDF (A4), con o sin soluciones, para papel o aula.</p>
+    </a>
+    <a class="tarjeta fichas2" href="fichas/fichas-de-restas.html">
+      <div class="emoji">🖨️</div>
+      <h2>Fichas de restas</h2>
+      <p>Genera fichas de restas en PDF (A4), con o sin soluciones. También con llevadas.</p>
+    </a>
+    <a class="tarjeta fichas3" href="fichas/fichas-de-multiplicacion.html">
+      <div class="emoji">✖️</div>
+      <h2>Fichas de multiplicaciones</h2>
+      <p>Genera fichas para practicar cualquier tabla del 2 al 10, con o sin soluciones.</p>
+    </a>
+    <a class="tarjeta fichas4" href="fichas/fichas-de-division.html">
+      <div class="emoji">➗</div>
+      <h2>Fichas de divisiones</h2>
+      <p>Genera fichas de divisiones exactas o con residuo, con o sin soluciones.</p>
+    </a>
+  </div>
+
+  <div class="niveles-lista">
+    <h2>Sumas: elige por nivel</h2>
+    <ul>
+      <li>🐣 <strong>Sumas hasta 10</strong> · para empezar (4-6 años)</li>
+      <li>➕ <strong>Sumas hasta 20</strong> · el más practicado (5-7 años)</li>
+      <li>🚀 <strong>Sumas con llevadas</strong> · siguientes pasos (7-9 años)</li>
+    </ul>
+  </div>
+
+  <div class="niveles-lista">
+    <h2>Restas: elige por nivel</h2>
+    <ul>
+      <li>🐣 <strong>Restas hasta 10</strong> · para empezar (4-6 años)</li>
+      <li>➖ <strong>Restas hasta 20</strong> · un poco más difícil (5-7 años)</li>
+      <li>🚀 <strong>Restas con llevadas</strong> · prestando (7-9 años)</li>
+    </ul>
+  </div>
+
+  <div class="niveles-lista">
+    <h2>Multiplicaciones: elige por nivel</h2>
+    <ul>
+      <li>✖️ <strong>Tablas del 2 al 5</strong> · para empezar (6-8 años)</li>
+      <li>🚀 <strong>Tablas del 2 al 10</strong> · el más practicado (7-10 años)</li>
+      <li>🎯 <strong>Practica una tabla</strong> · elige cuál (6-10 años)</li>
+    </ul>
+  </div>
+
+  <div class="niveles-lista">
+    <h2>Divisiones: elige por nivel</h2>
+    <ul>
+      <li>➗ <strong>Dividir hasta 5</strong> · para empezar (6-8 años)</li>
+      <li>🚀 <strong>Dividir hasta 10</strong> · el más practicado (7-10 años)</li>
+      <li>🎯 <strong>Entre 2, 5 y 10</strong> · divisores fáciles (6-9 años)</li>
+    </ul>
+  </div>
+
+  <div class="bloques">
+    <div class="bloque">
+      <h2>Para padres y maestros</h2>
+      <p>Aquí tienes <strong>juegos</strong> y <strong>fichas imprimibles</strong> de sumas, restas,
+         multiplicaciones y divisiones para niños de 4 a 10 años. Todo es <strong>gratis y sin registro</strong>.</p>
+      <ul>
+        <li>Empieza por el nivel más fácil y sube cuando el niño lo domine.</li>
+        <li>Usa el <strong>modo Aprender</strong> (con dibujos y voz) para entender y el <strong>modo Reto</strong> para repasar.</li>
+        <li>Combina el juego en pantalla con <strong>fichas en papel</strong> para afianzar lo aprendido.</li>
+        <li>Recuerda desactivar las cabeceras del navegador al imprimir para aprovechar toda la hoja.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="bloques faq">
+    <h2>Preguntas frecuentes</h2>
+    <details>
+      <summary>¿Es gratis?</summary>
+      <p>Sí. Todos los juegos y fichas son gratis y no necesitas registrarte.</p>
+    </details>
+    <details>
+      <summary>¿Necesito instalar algo?</summary>
+      <p>No. Funciona en el navegador del móvil, la tablet o el ordenador.</p>
+    </details>
+    <details>
+      <summary>¿Cómo imprimo las fichas?</summary>
+      <p>Abre una ficha, elige las opciones y pulsa "Imprimir / Guardar PDF". Se genera en tamaño A4.</p>
+    </details>
+    <details>
+      <summary>¿Pedís datos a los niños?</summary>
+      <p>No. No hay registro ni formularios y no pedimos datos personales de los niños.</p>
+    </details>
+  </div>
+
+  <!-- ANUNCIO (abajo): pega aquí el bloque de AdSense cuando lo tengas -->
+  </main>
+
+  <footer>
+    <nav class="pie-nav">
+      <a href="juego/juego-de-sumas.html">Sumas</a> ·
+      <a href="juego/juego-de-restas.html">Restas</a> ·
+      <a href="juego/juego-de-multiplicacion.html">Multiplicaciones</a> ·
+      <a href="juego/juego-de-division.html">Divisiones</a> ·
+      <a href="fichas/fichas-de-sumas.html">Fichas para imprimir</a>
+    </nav>
+    <nav class="pie-nav">
+      <a href="sobre.html">Sobre</a> ·
+      <a href="contacto.html">Contacto</a> ·
+      <a href="aviso-legal.html">Aviso legal</a> ·
+      <a href="privacidad.html">Privacidad</a> ·
+      <a href="cookies.html">Cookies</a>
+    </nav>
+    © Matemágica · Sin registro · No pedimos datos a los niños.
+  </footer>
+</div>
+</body>
+</html>

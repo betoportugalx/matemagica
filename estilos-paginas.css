@@ -1,0 +1,44 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0; color: #1f2937; background: #eef2f7; line-height: 1.65;
+  font-family: "Trebuchet MS", "Segoe UI", system-ui, -apple-system, sans-serif;
+}
+a { color: #4338ca; font-weight: 600; }
+
+/* Cabecera */
+.cabecera { background: linear-gradient(135deg, #4f46e5, #7c3aed); color: #fff; }
+.cabecera-in {
+  max-width: 820px; margin: 0 auto; padding: 14px 18px;
+  display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap;
+}
+.marca { color: #fff; text-decoration: none; font-weight: 800; font-size: 18px; }
+.cabecera .volver { color: #e0e7ff; text-decoration: none; font-weight: 700; font-size: 14px; }
+.cabecera .volver:hover { text-decoration: underline; }
+
+/* Contenido */
+.contenido { max-width: 820px; margin: 0 auto; padding: 24px 18px 6px; }
+.contenido h1 { color: #312e81; font-size: clamp(24px, 5vw, 32px); margin: 0 0 4px; }
+.contenido h2 { color: #312e81; font-size: 20px; margin: 28px 0 8px; }
+.contenido p, .contenido li { color: #374151; font-size: 15.5px; }
+.contenido ul { padding-left: 22px; }
+.contenido li { margin: 4px 0; }
+.fecha { color: #4b5563; font-size: 13px; margin: 0 0 10px; }
+code {
+  background: #eef2ff; color: #3730a3; padding: 1px 5px; border-radius: 6px;
+  font-size: 0.92em;
+}
+
+/* Aviso de datos pendientes */
+.aviso-pendiente {
+  background: #fef3c7; border: 1px solid #fbbf24; border-radius: 12px;
+  padding: 12px 16px; font-size: 14px; color: #92400e; margin: 14px 0;
+}
+
+/* Pie */
+.pie {
+  max-width: 820px; margin: 30px auto 0; padding: 20px 18px 44px;
+  text-align: center; color: #4b5563; font-size: 13px; border-top: 1px solid #e5e7eb;
+}
+.pie a { color: #4338ca; text-decoration: none; font-weight: 700; margin: 0 5px; }
+.pie a:hover { text-decoration: underline; }
+.pie .pie-nav { margin-bottom: 10px; }

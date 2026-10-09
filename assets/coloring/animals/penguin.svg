@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Pinguino pequeno con alas redondeadas">
+  <g fill="none" stroke="#000" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <ellipse cx="48" cy="128" rx="13" ry="32" transform="rotate(14 48 128)" fill="#fff"/>
+    <ellipse cx="152" cy="128" rx="13" ry="32" transform="rotate(-14 152 128)" fill="#fff"/>
+    <ellipse cx="100" cy="116" rx="48" ry="60" fill="#fff"/>
+    <ellipse cx="100" cy="136" rx="31" ry="40" fill="#fff"/>
+    <ellipse cx="78" cy="184" rx="16" ry="8" fill="#fff"/>
+    <ellipse cx="122" cy="184" rx="16" ry="8" fill="#fff"/>
+    <path d="M92 62 q8 -14 16 0"/>
+    <circle cx="86" cy="92" r="4.5" fill="#000" stroke="none"/>
+    <circle cx="114" cy="92" r="4.5" fill="#000" stroke="none"/>
+    <path d="M100 100 l-10 9 l10 9 l10 -9 z" fill="#fff"/>
+  </g>
+</svg>

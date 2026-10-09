@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Juego de restas para niños (hasta 10, hasta 20 y con llevadas) | Matemágica</title>
+<meta name="description" content="Juego de restas online gratis para niños con dibujos y voz: restas hasta 10, hasta 20 y con llevadas (prestando). Modo aprender y modo reto. Sin registro.">
+<!-- URLs absolutas del sitio en GitHub Pages (repo "matemagica"). -->
+<link rel="canonical" href="https://betoportugalx.github.io/matemagica/juego/juego-de-restas">
+<meta name="theme-color" content="#4f46e5">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Matemágica">
+<meta property="og:locale" content="es_PE">
+<meta property="og:title" content="Juego de restas para niños">
+<meta property="og:description" content="Elige el nivel y el modo. Con dibujos que se tachan y voz que lee la resta. ¡Gratis!">
+<meta property="og:url" content="https://betoportugalx.github.io/matemagica/juego/juego-de-restas">
+<link rel="stylesheet" href="estilos-juego.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LearningResource",
+  "name": "Juego de restas para niños",
+  "learningResourceType": "Game",
+  "educationalLevel": "Educación Primaria",
+  "about": "Restas",
+  "inLanguage": "es",
+  "isAccessibleForFree": true,
+  "url": "https://betoportugalx.github.io/matemagica/juego/juego-de-restas"
+}
+</script>
+
+<!-- ====== CÓDIGO DE ADSENSE (una sola vez en todo el sitio) ======
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXX" crossorigin="anonymous"></script>
+================================================================ -->
+</head>
+<body>
+<main class="app">
+
+  <header class="top">
+    <div class="brand" id="brand">➖ Restas para niños</div>
+    <div class="top-actions">
+      <button id="btnVoz" class="iconbtn on" title="Voz que lee la resta" aria-label="Activar o desactivar la voz">🔊</button>
+      <button id="btnVisual" class="iconbtn on" title="Dibujos para contar" aria-label="Activar o desactivar los dibujos">👀</button>
+      <a class="link" href="../index.html">Inicio</a>
+    </div>
+  </header>
+
+  <!-- ANUNCIO 1 (arriba del juego): pega aquí tu bloque de AdSense -->
+
+  <!-- ===== Pantalla: elegir modo y nivel ===== -->
+  <section id="screen-nivel" class="card">
+    <h1 id="tituloNivel">Elige tu juego de restas</h1>
+    <p class="sub">Toca un nivel y empieza. 10 preguntas por ronda.</p>
+
+    <div class="modos" id="modos">
+      <button class="modo activo" data-modo="aprender">🎓 Aprender</button>
+      <button class="modo" data-modo="reto">⚡ Reto</button>
+    </div>
+    <p class="modo-desc" id="modoDesc">Con dibujos y voz, sin prisa. Ideal para entender.</p>
+
+    <div class="niveles" id="niveles"></div>
+    <div class="voz-fila" id="filaVoz">
+      <span>🎙️ Voz</span>
+      <select id="selVoz" aria-label="Elegir la voz"></select>
+    </div>
+    <p class="otros-juegos">Otros juegos: <a href="juego-de-sumas.html">sumas</a>, <a href="juego-de-multiplicacion.html">multiplicaciones</a> y <a href="juego-de-division.html">divisiones</a>.</p>
+    <p class="para-padres">Sin registro y no pedimos datos a los niños. Hecho para casa o el aula.</p>
+  </section>
+
+  <!-- ===== Pantalla: jugando ===== -->
+  <section id="screen-juego" class="card hidden">
+    <div class="juego-top">
+      <button id="btnSalir" class="mini">← Nivel</button>
+      <span id="txtProgreso" class="pill">Pregunta 1 de 10</span>
+      <span class="puntos">⭐ <span id="txtPuntos">0</span></span>
+    </div>
+    <div class="barra-progreso"><div id="barraFill"></div></div>
+    <div class="barra-tiempo hidden" id="barraTiempo"><div id="tiempoFill"></div></div>
+
+    <div class="operacion" id="operacion" aria-live="polite">9 − 4 = <span class="qmark">?</span></div>
+    <div class="visual" id="visual"></div>
+    <div class="opciones" id="opciones"></div>
+    <div class="feedback" id="feedback" role="status" aria-live="polite"></div>
+
+    <!-- ===== Panel de corrección: al fallar, tapa el juego y agranda todo ===== -->
+    <div class="correccion hidden" id="correccion">
+      <div class="corr-titulo" id="corrTitulo">Casi... ¡mira!</div>
+      <div class="corr-ecuacion" id="corrEcuacion"></div>
+      <div class="visual grande" id="corrVisual"></div>
+      <div class="corr-acciones">
+        <button id="btnContar" class="btn-secundario">🔊 Cuéntame</button>
+        <button id="btnSiguiente" class="btn-primario">Siguiente →</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Pantalla: resultado ===== -->
+  <section id="screen-final" class="card hidden">
+    <div class="final-emoji" id="finalEmoji">🏆</div>
+    <div class="estrellas" id="estrellas"></div>
+    <h2 id="tituloFinal"></h2>
+    <p id="detalleFinal"></p>
+    <div class="acciones">
+      <button id="btnOtra" class="btn-primario">🔁 Jugar otra vez</button>
+      <button id="btnNivel" class="btn-secundario">Cambiar de nivel</button>
+    </div>
+    <div class="cta-fichas">
+      <strong>¿Quieres practicar también en papel? 📝</strong>
+      Descarga gratis las <a href="../fichas/fichas-de-restas.html">fichas de restas para imprimir</a>.
+    </div>
+    <!-- ANUNCIO 2 (resultado de la ronda): pega aquí tu bloque de AdSense -->
+  </section>
+
+  <!-- ANUNCIO 3 (abajo del juego): pega aquí tu bloque de AdSense -->
+
+</main>
+
+<script src="motor.js"></script>
+<script src="../comun/generadores.js"></script>
+<script src="operaciones.js"></script>
+<script>
+  Juego.arrancar(OPERACIONES.resta);
+</script>
+</body>
+</html>

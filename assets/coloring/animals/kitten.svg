@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Gatito con cola curva y cara alegre">
+  <g fill="none" stroke="#000" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M138 168 q40 12 36 -30 q-3 -24 -22 -20" fill="none"/>
+    <path d="M64 60 L54 22 L88 46 Z" fill="#fff"/>
+    <path d="M136 60 L146 22 L112 46 Z" fill="#fff"/>
+    <path d="M69 54 L63 32 L83 46 Z"/>
+    <path d="M131 54 L137 32 L117 46 Z"/>
+    <ellipse cx="100" cy="150" rx="44" ry="40" fill="#fff"/>
+    <ellipse cx="76" cy="184" rx="14" ry="8" fill="#fff"/>
+    <ellipse cx="124" cy="184" rx="14" ry="8" fill="#fff"/>
+    <circle cx="100" cy="84" r="42" fill="#fff"/>
+    <circle cx="84" cy="82" r="4.5" fill="#000" stroke="none"/>
+    <circle cx="116" cy="82" r="4.5" fill="#000" stroke="none"/>
+    <path d="M100 92 l-5 6 h10 z" fill="#000" stroke="none"/>
+    <path d="M100 98 q-7 8 -13 2"/>
+    <path d="M100 98 q7 8 13 2"/>
+    <path d="M60 90 h-14"/>
+    <path d="M60 98 h-14"/>
+    <path d="M140 90 h14"/>
+    <path d="M140 98 h14"/>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Conejito con orejas largas">
+  <g fill="none" stroke="#000" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <ellipse cx="76" cy="44" rx="12" ry="33" transform="rotate(-10 76 44)" fill="#fff"/>
+    <ellipse cx="124" cy="44" rx="12" ry="33" transform="rotate(10 124 44)" fill="#fff"/>
+    <ellipse cx="76" cy="46" rx="5.5" ry="21" transform="rotate(-10 76 46)"/>
+    <ellipse cx="124" cy="46" rx="5.5" ry="21" transform="rotate(10 124 46)"/>
+    <ellipse cx="100" cy="158" rx="47" ry="34" fill="#fff"/>
+    <ellipse cx="100" cy="100" rx="43" ry="38" fill="#fff"/>
+    <ellipse cx="74" cy="182" rx="16" ry="9" fill="#fff"/>
+    <ellipse cx="126" cy="182" rx="16" ry="9" fill="#fff"/>
+    <circle cx="70" cy="112" r="7"/>
+    <circle cx="130" cy="112" r="7"/>
+    <circle cx="83" cy="96" r="4.5" fill="#000" stroke="none"/>
+    <circle cx="117" cy="96" r="4.5" fill="#000" stroke="none"/>
+    <path d="M100 104 l-6 8 h12 z" fill="#000" stroke="none"/>
+    <path d="M100 112 q-8 9 -15 3"/>
+    <path d="M100 112 q8 9 15 3"/>
+  </g>
+</svg>

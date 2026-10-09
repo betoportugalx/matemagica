@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fichas de restas para imprimir (hasta 10, hasta 20 y con llevadas) | Matemágica</title>
+<meta name="description" content="Genera e imprime fichas de restas en PDF (A4): hasta 10, hasta 20 y con llevadas (prestando). Gratis, con o sin soluciones, para casa o el aula.">
+<!-- URLs absolutas del sitio en GitHub Pages (repo "matemagica"). -->
+<link rel="canonical" href="https://betoportugalx.github.io/matemagica/fichas/fichas-de-restas">
+<meta name="theme-color" content="#4f46e5">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Matemágica">
+<meta property="og:locale" content="es_PE">
+<meta property="og:title" content="Fichas de restas para imprimir">
+<meta property="og:description" content="Genera fichas de restas en PDF (A4), con o sin soluciones. Gratis para casa o el aula.">
+<meta property="og:url" content="https://betoportugalx.github.io/matemagica/fichas/fichas-de-restas">
+<link rel="stylesheet" href="estilos-fichas.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LearningResource",
+  "name": "Fichas de restas para imprimir",
+  "learningResourceType": "Worksheet",
+  "educationalLevel": "Educación Primaria",
+  "about": "Restas",
+  "inLanguage": "es",
+  "isAccessibleForFree": true,
+  "url": "https://betoportugalx.github.io/matemagica/fichas/fichas-de-restas"
+}
+</script>
+</head>
+<body>
+
+  <div class="intro">
+    <h1>Fichas de restas para imprimir</h1>
+    <p>Genera e imprime fichas de restas en PDF (tamaño A4), con o sin soluciones, para casa o el aula.
+       También puedes <a href="fichas-de-sumas.html">imprimir sumas</a>,
+       <a href="fichas-de-multiplicacion.html">multiplicaciones</a> o
+       <a href="fichas-de-division.html">divisiones</a>, o
+       <a href="../juego/juego-de-restas.html">jugar a las restas online</a>.</p>
+  </div>
+
+  <div class="barra">
+    <label>Operación:
+      <select id="operacion">
+        <option value="suma">Sumas (+)</option>
+        <option value="resta">Restas (−)</option>
+        <option value="multiplicacion">Multiplicaciones (×)</option>
+        <option value="division">Divisiones (÷)</option>
+      </select>
+    </label>
+    <label>Nivel:
+      <select id="nivel"></select>
+    </label>
+    <label id="filaTabla" class="hidden">Tabla:
+      <select id="tabla">
+        <option value="todas">Todas</option>
+        <option value="2">del 2</option>
+        <option value="3">del 3</option>
+        <option value="4">del 4</option>
+        <option value="5">del 5</option>
+        <option value="6">del 6</option>
+        <option value="7">del 7</option>
+        <option value="8">del 8</option>
+        <option value="9">del 9</option>
+        <option value="10">del 10</option>
+      </select>
+    </label>
+    <label id="filaTipo" class="hidden">Tipo:
+      <select id="tipo">
+        <option value="exacta">Exactas</option>
+        <option value="residuo">Con residuo</option>
+        <option value="mezcla">Mezcla</option>
+      </select>
+    </label>
+    <label>Formato:
+      <select id="formato">
+        <option value="horizontal" selected>Horizontal</option>
+        <option value="vertical">Vertical (columnas)</option>
+      </select>
+    </label>
+    <label>Nº de ejercicios:
+      <select id="cantidad">
+        <option>12</option>
+        <option selected>20</option>
+        <option>24</option>
+      </select>
+    </label>
+    <label><input type="checkbox" id="clave"> Incluir soluciones</label>
+    <button id="btnGen" type="button">Generar fichas nuevas</button>
+    <button id="btnPrint" type="button" onclick="window.print()">Imprimir / Guardar PDF</button>
+  </div>
+
+  <main id="hojas"></main>
+
+<script src="../comun/generadores.js"></script>
+<script src="generador.js"></script>
+<script>iniciarFichas("resta");</script>
+</body>
+</html>

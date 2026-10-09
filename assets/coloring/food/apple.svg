@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Manzana sonriente con una hoja grande">
+  <g fill="none" stroke="#000" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M100 58 q-2 -20 8 -30"/>
+    <path d="M106 42 q26 -14 34 8 q-24 18 -34 -8 z" fill="#fff"/>
+    <path d="M110 42 q14 -4 24 6"/>
+    <path d="M100 60 C74 34 30 50 32 102 C34 154 70 182 100 178 C130 182 166 154 168 102 C170 50 126 34 100 60 Z" fill="#fff"/>
+    <circle cx="66" cy="126" r="8"/>
+    <circle cx="134" cy="126" r="8"/>
+    <circle cx="80" cy="104" r="5" fill="#000" stroke="none"/>
+    <circle cx="120" cy="104" r="5" fill="#000" stroke="none"/>
+    <path d="M80 126 q20 20 40 0"/>
+  </g>
+</svg>

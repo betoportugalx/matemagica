@@ -1,0 +1,208 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2026-10-09",
+  "description": "Biblioteca de ilustraciones originales para colorear, pensadas para las cuatro operaciones basicas.",
+  "entries": [
+    {
+      "id": "animal-bunny",
+      "name": "Conejito",
+      "category": "animals",
+      "path": "./assets/coloring/animals/bunny.svg",
+      "description": "Conejito con orejas largas, mejillas redondas y cara alegre.",
+      "tags": ["animal", "conejo", "orejas", "pequeño", "sumar", "contar"],
+      "recommendedOps": ["suma", "resta", "multiplicacion", "division"],
+      "svgValid": false,
+      "dimensions": { "viewBox": "0 0 200 200", "width": 200, "height": 200 }
+    },
+    {
+      "id": "animal-bear",
+      "name": "Osito",
+      "category": "animals",
+      "path": "./assets/coloring/animals/bear.svg",
+      "description": "Osito sentado con patas grandes.",
+      "tags": ["animal", "oso", "sentado", "simpatico"],
+      "recommendedOps": ["suma", "resta", "multiplicacion", "division"],
+      "svgValid": false
+    },
+    {
+      "id": "animal-kitten",
+      "name": "Gatito",
+      "category": "animals",
+      "path": "./assets/coloring/animals/kitten.svg",
+      "description": "Gatito con cola curva y expresión alegre.",
+      "tags": ["animal", "gato", "curioso", "alegre"],
+      "recommendedOps": ["suma", "resta", "multiplicacion", "division"],
+      "svgValid": false
+    },
+    {
+      "id": "animal-turtle",
+      "name": "Tortuguita",
+      "category": "animals",
+      "path": "./assets/coloring/animals/turtle.svg",
+      "description": "Tortuguita con caparazón dividido en áreas amplias.",
+      "tags": ["animal", "tortuga", "caparazon"],
+      "recommendedOps": ["suma", "resta", "multiplicacion", "division"],
+      "svgValid": false
+    },
+    {
+      "id": "animal-penguin",
+      "name": "Pingüino",
+      "category": "animals",
+      "path": "./assets/coloring/animals/penguin.svg",
+      "description": "Pingüino pequeño con alas redondeadas.",
+      "tags": ["animal", "pinguino", "nieve"],
+      "recommendedOps": ["suma", "resta", "multiplicacion", "division"],
+      "svgValid": false
+    },
+    {
+      "id": "food-apple",
+      "name": "Manzana",
+      "category": "food",
+      "path": "./assets/coloring/food/apple.svg",
+      "description": "Manzana sonriente con una hoja grande.",
+      "tags": ["fruta", "manzana", "sonriente"],
+      "recommendedOps": ["suma", "resta", "multiplicacion", "division"],
+      "svgValid": false
+    },
+    {
+      "id": "food-pear",
+      "name": "Pera",
+      "category": "food",
+      "path": "./assets/coloring/food/pear.svg",
+      "description": "Pera de silueta clara y fácil de colorear.",
+      "tags": ["fruta", "pera"],
+      "recommendedOps": ["suma", "resta", "multiplicacion", "division"],
+      "svgValid": false
+    },
+    {
+      "id": "food-strawberry",
+      "name": "Fresa",
+      "category": "food",
+      "path": "./assets/coloring/food/strawberry.svg",
+      "description": "Fresa con semillas grandes y espaciadas.",
+      "tags": ["fruta", "fresa", "semillas"],
+      "recommendedOps": ["suma", "resta", "multiplicacion", "division"],
+      "svgValid": false
+    },
+    {
+      "id": "food-banana",
+      "name": "Plátano",
+      "category": "food",
+      "path": "./assets/coloring/food/banana.svg",
+      "description": "Plátano de contorno cerrado y forma sencilla.",
+      "tags": ["fruta", "platano", "curvo"],
+      "recommendedOps": ["suma", "resta", "multiplicacion", "division"],
+      "svgValid": false
+    },
+    {
+      "id": "food-watermelon",
+      "name": "Sandía",
+      "category": "food",
+      "path": "./assets/coloring/food/watermelon.svg",
+      "description": "Sandía en porción triangular con pocas semillas grandes.",
+      "tags": ["fruta", "sandia", "refrescante"],
+      "recommendedOps": ["suma", "resta", "multiplicacion", "division"],
+      "svgValid": false
+    },
+    {
+      "id": "fantasy-round-monster",
+      "name": "Monstruito redondo",
+      "category": "fantasy",
+      "path": "./assets/coloring/fantasy/round-monster.svg",
+      "description": "Monstruito redondo, simpático y fácil de colorear.",
+      "tags": ["fantasia", "monstruo", "redondo", "cuernos"],
+      "recommendedOps": ["suma", "resta", "multiplicacion", "division"],
+      "svgValid": false
+    },
+    {
+      "id": "fantasy-winged-creature",
+      "name": "Criatura alada",
+      "category": "fantasy",
+      "path": "./assets/coloring/fantasy/winged-creature.svg",
+      "description": "Criatura alada original, con alas amplias.",
+      "tags": ["fantasia", "alas", "amigable"],
+      "recommendedOps": ["suma", "resta", "multiplicacion", "division"],
+      "svgValid": false
+    },
+    {
+      "id": "fantasy-living-star",
+      "name": "Estrellita viviente",
+      "category": "fantasy",
+      "path": "./assets/coloring/fantasy/living-star.svg",
+      "description": "Estrellita viviente con rostro sencillo.",
+      "tags": ["fantasia", "estrella", "viviente"],
+      "recommendedOps": ["suma", "resta", "multiplicacion", "division"],
+      "svgValid": false
+    },
+    {
+      "id": "fantasy-space-creature",
+      "name": "Criatura espacial",
+      "category": "fantasy",
+      "path": "./assets/coloring/fantasy/space-creature.svg",
+      "description": "Criatura espacial con antenas y botas grandes.",
+      "tags": ["fantasia", "espacio", "antenas"],
+      "recommendedOps": ["suma", "resta", "multiplicacion", "division"],
+      "svgValid": false
+    },
+    {
+      "id": "fantasy-baby-dragon",
+      "name": "Dragón bebé",
+      "category": "fantasy",
+      "path": "./assets/coloring/fantasy/baby-dragon.svg",
+      "description": "Dragón bebé con alas redondeadas y cola curva.",
+      "tags": ["fantasia", "dragon", "bebe", "ala"],
+      "recommendedOps": ["suma", "resta", "multiplicacion", "division"],
+      "svgValid": false
+    },
+    {
+      "id": "school-pencil",
+      "name": "Lápiz",
+      "category": "school",
+      "path": "./assets/coloring/school/pencil.svg",
+      "description": "Lápiz sonriente, ideal para colecciones escolares.",
+      "tags": ["escuela", "lapiz", "sonriente"],
+      "recommendedOps": ["suma", "resta", "multiplicacion", "division"],
+      "svgValid": false
+    },
+    {
+      "id": "school-backpack",
+      "name": "Mochila",
+      "category": "school",
+      "path": "./assets/coloring/school/backpack.svg",
+      "description": "Mochila con bolsillos grandes y área para colorear.",
+      "tags": ["escuela", "mochila", "bolsillos"],
+      "recommendedOps": ["suma", "resta", "multiplicacion", "division"],
+      "svgValid": false
+    },
+    {
+      "id": "school-ball",
+      "name": "Pelota",
+      "category": "school",
+      "path": "./assets/coloring/school/ball.svg",
+      "description": "Pelota con paneles amplios.",
+      "tags": ["juego", "pelota", "deporte"],
+      "recommendedOps": ["suma", "resta", "multiplicacion", "division"],
+      "svgValid": false
+    },
+    {
+      "id": "school-block",
+      "name": "Bloque de construcción",
+      "category": "school",
+      "path": "./assets/coloring/school/building-block.svg",
+      "description": "Bloque de construcción con forma sencilla.",
+      "tags": ["juego", "bloque", "construccion"],
+      "recommendedOps": ["suma", "resta", "multiplicacion", "division"],
+      "svgValid": false
+    },
+    {
+      "id": "school-rocket",
+      "name": "Cohete",
+      "category": "school",
+      "path": "./assets/coloring/school/rocket.svg",
+      "description": "Cohete infantil con ventanas grandes.",
+      "tags": ["espacio", "cohete", "infantil"],
+      "recommendedOps": ["suma", "resta", "multiplicacion", "division"],
+      "svgValid": false
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Platano de forma sencilla y contorno cerrado">
+  <g fill="none" stroke="#000" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M44 52 C30 112 62 160 120 168 C146 172 164 162 172 148 C140 150 110 136 90 110 C76 88 68 66 68 48 C60 48 50 49 44 52 Z" fill="#fff"/>
+    <path d="M58 76 C64 108 86 138 120 154"/>
+    <path d="M50 62 C56 98 76 130 108 150"/>
+    <path d="M68 48 q6 -10 0 -18"/>
+  </g>
+</svg>

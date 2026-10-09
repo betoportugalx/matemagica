@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Fresa con semillas grandes y espaciadas">
+  <g fill="none" stroke="#000" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M100 34 v-12"/>
+    <path d="M100 176 C62 150 40 120 40 92 C40 64 68 48 100 48 C132 48 160 64 160 92 C160 120 138 150 100 176 Z" fill="#fff"/>
+    <path d="M100 46 L80 26 L100 38 L120 26 Z" fill="#fff"/>
+    <path d="M100 46 L60 34 L88 44 Z" fill="#fff"/>
+    <path d="M100 46 L140 34 L112 44 Z" fill="#fff"/>
+    <circle cx="88" cy="66" r="4" fill="#000" stroke="none"/>
+    <circle cx="112" cy="66" r="4" fill="#000" stroke="none"/>
+    <path d="M92 78 q8 8 16 0"/>
+    <ellipse cx="70" cy="102" rx="4" ry="6"/>
+    <ellipse cx="100" cy="98" rx="4" ry="6"/>
+    <ellipse cx="130" cy="102" rx="4" ry="6"/>
+    <ellipse cx="58" cy="124" rx="4" ry="6"/>
+    <ellipse cx="142" cy="124" rx="4" ry="6"/>
+    <ellipse cx="84" cy="128" rx="4" ry="6"/>
+    <ellipse cx="116" cy="128" rx="4" ry="6"/>
+    <ellipse cx="100" cy="152" rx="4" ry="6"/>
+  </g>
+</svg>

@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Página no encontrada (404) | Matemágica</title>
+<meta name="robots" content="noindex">
+<!-- En una página 404 los enlaces relativos se resuelven contra la URL que falló.
+     Por eso fijamos aquí la base del sitio (GitHub Pages). -->
+<base href="https://betoportugalx.github.io/matemagica/">
+<meta name="theme-color" content="#4f46e5">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; min-height: 100vh; color: #1f2937;
+         background: linear-gradient(160deg,#e0f2fe,#ede9fe 55%,#fce7f3);
+         font-family: "Trebuchet MS","Segoe UI",system-ui,-apple-system,sans-serif; }
+  .wrap { max-width: 640px; margin: 0 auto; padding: 60px 18px; text-align: center; }
+  .emoji { font-size: 60px; }
+  h1 { color: #312e81; font-size: clamp(24px, 6vw, 34px); margin: 10px 0 6px; }
+  p { color: #4b5563; font-size: 16px; }
+  .tarjetas { display: grid; gap: 12px; margin: 26px 0; }
+  @media (min-width: 560px) { .tarjetas { grid-template-columns: 1fr 1fr; } }
+  .tarjeta { display: block; background: #fff; border-radius: 16px; padding: 16px; text-decoration: none;
+             color: #1f2937; box-shadow: 0 10px 24px rgba(79,70,229,.12); font-weight: 700;
+             border-top: 4px solid #4f46e5; }
+  .tarjeta:hover { transform: translateY(-2px); }
+  .volver { display: inline-block; margin-top: 6px; color: #4338ca; font-weight: 700; text-decoration: none; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="emoji">🧮</div>
+    <h1>¡Ups! Esta página no existe</h1>
+    <p>Puede que el enlace esté mal escrito o que la página se haya movido.
+       Pero no pasa nada: desde aquí puedes seguir practicando.</p>
+
+    <div class="tarjetas">
+      <a class="tarjeta" href="juego/juego-de-sumas.html">➕ Juego de sumas</a>
+      <a class="tarjeta" href="juego/juego-de-restas.html">➖ Juego de restas</a>
+      <a class="tarjeta" href="juego/juego-de-multiplicacion.html">✖️ Juego de multiplicaciones</a>
+      <a class="tarjeta" href="juego/juego-de-division.html">➗ Juego de divisiones</a>
+      <a class="tarjeta" href="fichas/fichas-de-sumas.html">📝 Fichas de sumas</a>
+      <a class="tarjeta" href="fichas/fichas-de-division.html">🖨️ Fichas de divisiones</a>
+    </div>
+
+    <a class="volver" href="index.html">← Volver al inicio</a>
+  </div>
+</body>
+</html>

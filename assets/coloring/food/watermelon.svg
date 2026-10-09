@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Sandia en porcion triangular con pocas semillas grandes">
+  <g fill="none" stroke="#000" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M100 34 L30 168 Q100 186 170 168 Z" fill="#fff"/>
+    <path d="M52 148 Q100 164 148 148"/>
+    <path d="M42 158 Q100 176 158 158"/>
+    <ellipse cx="78" cy="92" rx="5" ry="7"/>
+    <ellipse cx="118" cy="86" rx="5" ry="7"/>
+    <ellipse cx="104" cy="116" rx="5" ry="7"/>
+    <ellipse cx="66" cy="128" rx="5" ry="7"/>
+    <ellipse cx="134" cy="118" rx="5" ry="7"/>
+  </g>
+</svg>
